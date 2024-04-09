@@ -7,7 +7,7 @@ export default function Home() {
       <div className='flex items-center w-full h-full bg-cover' style={{ backgroundImage: "url(/main-bg.webp)" }}>
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[50px] text-white font-semibold">
-            Irfan Nur Fahrudin&nbsp;<br/>
+            Irfan Nur Fahrudin{" "}<br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               Full Stack Development
             </span>
