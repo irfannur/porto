@@ -119,22 +119,22 @@ export const Socials = [
 export const Projects = [
   {
     title: "CBM Transmisi PLN",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: "Add new feature, Server installation & Bug fixing",
     src: "/pro-cbmtrans.png",
   },
   {
     title: "Smartnes PLN",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: "Add new feature, Server installation & Bug fixing",
     src: "/Jbt.png",
   },
   {
     title: "Zero Anomaly PLN",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: "Add new feature, Server installation & Bug fixing",
     src: "/zeroanomaly.png",
   },
   {
     title: "Beibee Ecommerce",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: "Desain DB schema, Add new feature, Server installation & Bug fixing",
     src: "/Beibee-co.png",
   },
 ];

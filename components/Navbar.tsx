@@ -16,7 +16,7 @@ const Navbar = () => {
                     className="w-full h-full object-contain rounded-full"
                 /> */}
                 </div>
-            <h1 className='text-white text-[25px] font-semibold'>INF</h1>
+            <Link href="/"><h1 className='text-white text-[25px] font-semibold'>INF</h1></Link>
             </div>
 
             <div className='flex flex-row gap-5 mb-2'>
