@@ -120,22 +120,22 @@ export const Projects = [
   {
     title: "CBM Transmisi PLN",
     text: "Add new feature, Server installation & Bug fixing",
-    src: "/pro-cbmtrans.png",
+    src: "/pro-cbmtrans.webp",
   },
   {
     title: "Smartnes PLN",
     text: "Add new feature, Server installation & Bug fixing",
-    src: "/Jbt.png",
+    src: "/Jbt.webp",
   },
   {
     title: "Zero Anomaly PLN",
     text: "Add new feature, Server installation & Bug fixing",
-    src: "/zeroanomaly.png",
+    src: "/zeroanomaly.webp",
   },
   {
     title: "Beibee Ecommerce",
     text: "Desain DB schema, Add new feature, Server installation & Bug fixing",
-    src: "/Beibee-co.png",
+    src: "/Beibee-co.webp",
   },
 ];
 
