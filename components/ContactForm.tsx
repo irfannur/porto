@@ -1,5 +1,5 @@
 "use client"
-import { useState } from 'react';
+import { ChangeEvent, FormEvent, useState } from 'react';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -8,14 +8,14 @@ const ContactForm = () => {
     message: ''
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     var myphone = '6285338325183';
@@ -36,7 +36,7 @@ const ContactForm = () => {
           name='name'
           value={formData.name}
           onChange={handleChange}
-          className='w-full px-3 py-2 text-sm text-gray-200 placeholder-gray-400 bg-white border-0 rounded shadow'
+          className='w-full px-3 py-2 text-sm text-black placeholder-gray-400 bg-white border-0 rounded shadow'
         />
       </div>
       <div className='mb-3'>
@@ -46,7 +46,7 @@ const ContactForm = () => {
           name='email'
           value={formData.email}
           onChange={handleChange}
-          className='w-full px-3 py-2 text-sm text-gray-200 placeholder-gray-400 bg-white border-0 rounded shadow'
+          className='w-full px-3 py-2 text-sm text-black placeholder-gray-400 bg-white border-0 rounded shadow'
         />
       </div>
       <div className='mb-3'>
@@ -56,7 +56,7 @@ const ContactForm = () => {
           name='message'
           value={formData.message}
           onChange={handleChange}
-          className='w-full px-3 py-2 text-sm text-gray-200 placeholder-gray-400 bg-white border-0 rounded shadow'
+          className='w-full px-3 py-2 text-sm text-black placeholder-gray-400 bg-white border-0 rounded shadow'
         />
       </div>
       <button type='submit' className='px-6 py-3 mb-5 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 hover:bg-blue-400'>
